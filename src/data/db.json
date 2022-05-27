@@ -1,0 +1,125 @@
+{
+	"data": {
+		"options": {
+			"Thu May 26 2022 - Thu May 30 2022": [
+				{
+					"id": 1,
+					"name": "Data 1",
+					"summary1": 10,
+					"summary2": 100,
+					"summary3": 92,
+					"summary4": 8,
+					"summary5": 1
+				},
+				{
+					"id": 2,
+					"name": "Data 2",
+					"summary1": 10,
+					"summary2": 100,
+					"summary3": 132,
+					"summary4": 3,
+					"summary5": 4
+				},
+				{
+					"id": 3,
+					"name": "Data 3",
+					"summary1": 10,
+					"summary2": 100,
+					"summary3": 22,
+					"summary4": 1,
+					"summary5": 16
+				},
+				{
+					"id": 4,
+					"name": "Data 4",
+					"summary1": 10,
+					"summary2": 100,
+					"summary3": 78,
+					"summary4": 43,
+					"summary5": 186
+				}
+			],
+			"Thu May 15 2020 - Thu May 20 2020": [
+				{
+					"id": 1,
+					"name": "Data 5",
+					"summary1": 20,
+					"summary2": 200,
+					"summary3": 92,
+					"summary4": 8,
+					"summary5": 1
+				},
+				{
+					"id": 2,
+					"name": "Data 6",
+					"summary1": 20,
+					"summary2": 200,
+					"summary3": 102,
+					"summary4": 3,
+					"summary5": 4
+				},
+				{
+					"id": 3,
+					"name": "Data 7",
+					"summary1": 20,
+					"summary2": 200,
+					"summary3": 22,
+					"summary4": 1,
+					"summary5": 16
+				},
+				{
+					"id": 4,
+					"name": "Data 8",
+					"summary1": 11,
+					"summary2": 200,
+					"summary3": 20,
+					"summary4": 43,
+					"summary5": 186
+				}
+			],
+			"Thu May 1 2022 - Thu May 5 2022": [
+				{
+					"id": 1,
+					"name": "Data 9",
+					"summary1": 30,
+					"summary2": 4000,
+					"summary3": 92,
+					"summary4": 8,
+					"summary5": 1
+				},
+				{
+					"id": 2,
+					"name": "Data 10",
+					"summary1": 95,
+					"summary2": 4000,
+					"summary3": 102,
+					"summary4": 3,
+					"summary5": 4
+				},
+				{
+					"id": 3,
+					"name": "Data 11",
+					"summary1": 30,
+					"summary2": 40300,
+					"summary3": 22,
+					"summary4": 1,
+					"summary5": 16
+				},
+				{
+					"id": 4,
+					"name": "Data 12",
+					"summary1": 30,
+					"summary2": 40,
+					"summary3": 78,
+					"summary4": 43,
+					"summary5": 186
+				}
+			]
+		},
+		"dateVariants": [
+			"Thu May 26 2022 - Thu May 30 2022",
+			"Thu May 15 2020 - Thu May 20 2020",
+			"Thu May 1 2022 - Thu May 5 2022"
+		]
+	}
+}
