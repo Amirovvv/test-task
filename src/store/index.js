@@ -1,5 +1,4 @@
 import { createStore } from 'vuex'
-import axios from 'axios'
 
 export default createStore({
 	state: {
@@ -19,11 +18,10 @@ export default createStore({
 		},
 	},
 	actions: {
-		async getData({ commit }) {
-			const data = await axios.get('http://localhost:3000/data')
-			commit('setData', data.data)
-			commit('setDates', data.data)
-			commit('setSelectedDate', data.data.dateVariants[0])
+		async getData({ commit }, data) {
+			commit('setData', data)
+			commit('setDates', data)
+			commit('setSelectedDate', data.dateVariants[0])
 		},
 		changeDate({ commit }, payload) {
 			commit('setSelectedDate', payload)

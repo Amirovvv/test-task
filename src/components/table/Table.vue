@@ -11,10 +11,6 @@ const setSearchData = (value) => {
   search.value = value
 }
 
-const date = computed(() => {
-  return store.state.dateVariants
-})
-
 const selectedDate = computed(() => {
   return store.state.selectedDate
 })
@@ -38,8 +34,6 @@ const summaries = computed(() => {
   })
   return summaries
 })
-
-onMounted(() => { })
 </script>
 
 <template>

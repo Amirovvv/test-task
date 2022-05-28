@@ -5,14 +5,16 @@ import {
   Navbar,
   Menu
 } from './components'
+import { data } from './data/db.json'
+
 const store = useStore()
 
-const getData = () => {
-  store.dispatch('getData')
+const getData = (data) => {
+  store.dispatch('getData', data)
 }
 
 onMounted(() => {
-  getData()
+  getData(data)
 })
 </script>
 
